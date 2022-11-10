@@ -2,11 +2,10 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
-
-cin >> a >> b >> c;
-
-//Qui va scritto il codice per eseguire i calcoli richiesti
-
-
+    float a, b, c; // dichiarazione delle variabili
+    cin >> a >> b >> c; // assegnazione valori
+    cout << (a*b)/2 << endl; //area triangolo
+    cout << a*a << endl; //area quadrato
+    cout << a*b << endl; // area rettangolo
+    cout << ((a+b)*c)/2 << endl; // area trapezio
 }
