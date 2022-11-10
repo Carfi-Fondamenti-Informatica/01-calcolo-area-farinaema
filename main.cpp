@@ -8,5 +8,4 @@ int main(){
     cout << a*a << endl; //area quadrato
     cout << a*b << endl; // area rettangolo
     cout << ((a+b)*c)/2 << endl; // area trapezio
-    return 0
 }
